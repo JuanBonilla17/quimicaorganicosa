@@ -37,11 +37,14 @@ details{margin:8px 0;background:var(--p2);border-radius:7px;padding:2px 14px}sum
 .mnav{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;padding-top:16px;border-top:1px solid var(--rule)}
 @media(max-width:1000px){#app{grid-template-columns:200px minmax(0,1fr);grid-template-areas:"t t" "s m" "s c"}#ctx{position:static;height:auto;border-left:0;border-top:1px solid var(--rule)}}
 @media(max-width:720px){#app{grid-template-columns:1fr;grid-template-areas:"t" "m" "c"}#side{display:none;position:fixed;top:96px;left:0;bottom:0;width:260px;z-index:25;background:var(--bg);height:auto}body.mo #side{display:block}#mt{display:block}.sw{width:100%}#main{padding:18px 16px 40px}}
-</style>.lesson{display:flex;gap:22px;align-items:flex-start}
+
+.lesson{display:flex;gap:22px;align-items:flex-start}
 .steps{width:172px;flex:0 0 172px;display:flex;flex-direction:column;gap:2px;position:sticky;top:60px}
 .steps .stp{text-align:left;font:600 .85rem/1.3 inherit;background:none;border:none;border-left:3px solid var(--rule);color:var(--soft);padding:7px 10px;cursor:pointer;border-radius:0}
-.steps .stp.on{border-left-color:var(--gold);color:var(--ink);background:var(--p2)}.steps .stp.done{color:var(--green)}
-.stepbody{flex:1;min-width:0}.stepbody>.b:first-child,.stepbody>p:first-child{margin-top:0}
+.steps .stp.on{border-left-color:var(--gold);color:var(--ink);background:var(--p2)}
+.steps .stp.done{color:var(--green)}
+.stepbody{flex:1;min-width:0}
+.stepbody>.b:first-child,.stepbody>p:first-child{margin-top:0}
 @media(max-width:720px){.lesson{flex-direction:column}.steps{flex-direction:row;overflow-x:auto;width:100%;position:static;gap:0}.steps .stp{border-left:none;border-bottom:3px solid var(--rule);white-space:nowrap;flex:0 0 auto}}
 </style></head><body>
 <div id="app">
